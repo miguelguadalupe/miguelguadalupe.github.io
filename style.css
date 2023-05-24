@@ -20,10 +20,11 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
     color: #333;
+    background-color: #f8f8f8;
 }
 
 nav {
-    background-color: #f2f2f2;
+    background-color: #222;
     padding: 10px 20px;
 }
 
@@ -39,12 +40,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #f8f8f8;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #777;
+    color: #ccc;
 }
 
 section {
@@ -53,7 +54,8 @@ section {
 }
 
 #hero {
-    background-color: #f9f9f9;
+    background-color: #333;
+    color: #f8f8f8;
 }
 
 #hero h2 {
@@ -64,37 +66,41 @@ section {
 #hero p {
     font-size: 18px;
     margin-bottom: 20px;
-    color: #777;
+    color: #f8f8f8;
 }
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: #222;
+    color: #f8f8f8;
     text-decoration: none;
     transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: #777;
+    background-color: #555;
 }
 
 #about {
-    background-color: #fff;
+    background-color: #f8f8f8;
 }
 
 #projects {
-    background-color: #f9f9f9;
+    background-color: #fff;
 }
 
 .project {
     margin-bottom: 30px;
     text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
 
 #contact {
-    background-color: #f2f2f2;
+    background-color: #f8f8f8;
 }
 
 form {
@@ -108,24 +114,27 @@ input,
 textarea {
     margin-bottom: 10px;
     padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: #222;
+    color: #f8f8f8;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    border-radius: 5px;
 }
 
 button:hover {
-    background-color: #777;
+    background-color: #555;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #222;
+    color: #f8f8f8;
     padding: 20px;
     text-align: center;
 }
